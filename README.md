@@ -22,9 +22,20 @@ Ethvert projekt har brug for at være organiseret. At smide alle nye CSS-regel d
 **Lav en liste med templates**<br>
 Beskriv hvilke templates(ex. *header*) der skal udvikles, i første omgang koncentrerer vi os om den mobile udgave(se style guide). List herunder de templates du er kommet frem til skal udvikles. 
 
-1. xxx
-2. xxx
-3. xxx
+Templates:
+1. header m. nav
+2. hero m. søgefelt
+3. fremhævet artikel
+4. artikel
+5. 'kort' m. link (til artikler)
+6. 'kort' u. link
+7. faktaboks (variant af artikel)
+8. footer m. inhouse links, some-links, copyrights...
+
+Components:
+a. søgefelt
+b. generisk link-button
+c. nav?
 
 ### Mobile first
 ”Mobil først” betyder, som navnet antyder, at vi starter produktdesignet ved de små skærm på telefoner, som har flere begrænsninger og derefter viderudvikler vi produktet så der også er verioner der fungerer optimelt på tablet og eller desktop.
