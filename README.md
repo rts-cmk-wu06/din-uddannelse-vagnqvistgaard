@@ -33,9 +33,9 @@ Templates:
 8. footer m. inhouse links, some-links, copyrights...
 
 Components:
-a. søgefelt
-b. generisk link-button
-c. nav?
+1. søgefelt
+2. generisk link-button
+3. nav?
 
 ### Mobile first
 ”Mobil først” betyder, som navnet antyder, at vi starter produktdesignet ved de små skærm på telefoner, som har flere begrænsninger og derefter viderudvikler vi produktet så der også er verioner der fungerer optimelt på tablet og eller desktop.
