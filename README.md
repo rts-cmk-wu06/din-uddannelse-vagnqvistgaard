@@ -52,3 +52,4 @@ Begrebet responsivt design beskriver teknikken, hvor en hjemmesides design autom
 * Brug af template arkitektur for CSS
 * Responsivt layout (Mobile first)
 * Korrekt brug af links til navigation mellem sider
+
