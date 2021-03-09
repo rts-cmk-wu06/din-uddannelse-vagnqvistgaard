@@ -1,0 +1,29 @@
+/* main wrapper css findes her*/
+
+.wrapper-index{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media queries her: */
+
+@media (min-width: 1025px){
+
+    .wrapper-index{
+        width: 1024px;
+    }
+}

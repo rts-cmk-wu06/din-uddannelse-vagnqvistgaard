@@ -1,0 +1,102 @@
+/* ===================== dinuddannelse.dk ============ */
+/* ==================== css for hero ============  */
+
+
+.hero{
+   
+    width: 100%; 
+    display: flex;
+    flex-flow:wrap;
+
+    background-image: url("../img/udd5.jpg");
+    background-size: cover;
+}
+
+.hero-text{
+    margin: auto;
+    padding-top: 2.25rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+/* =========== statisk søgefelt linje 25 - 57 =================== */
+
+.positionator{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form-container{
+    position: relative;
+    width: 236px;
+}
+
+
+#hero-search{
+    width: 236px;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #C40000;
+    outline: none;
+    margin-top: 13px;
+    margin-bottom: 52px;
+    
+}
+
+.hero-lup{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    z-index: 10;
+    transform: translate(15%, 70%);
+}
+
+
+/* @media queries her: */
+
+@media (min-width: 1025px){
+
+    .hero{
+        width: 1024px;
+        height: 512px;
+        margin: 0 auto;
+    }
+
+    .hero-text{
+        font-size: 3rem;
+        width: 550px;
+    }
+
+    .positionator{
+        display: flex;
+        width: 1024px;
+        justify-content: center;
+    }
+    
+    .form-container{
+        position: relative;
+        width: 550px;
+    }
+
+    #hero-search{
+        width: 550px;
+        height: 45px;
+        font-size: 1.5rem;
+       
+        margin-top: 7px;
+        margin-bottom: 52px; 
+    }
+
+    .hero-lup{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        z-index: 10;
+        transform: translate(15%, 70%);
+    }
+}
+

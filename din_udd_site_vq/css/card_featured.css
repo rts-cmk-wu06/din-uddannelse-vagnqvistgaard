@@ -1,0 +1,147 @@
+/* css for forsidens teaser-card for featured article */
+
+.card-feat{
+    width: 100%; 
+    background-color: white; 
+    display: flex;
+    flex-flow:wrap;
+}
+
+/*  ================ top-bjælken ================== */
+
+.card-feat-top{
+    background-color: #C40000;
+    width: 86.5%;
+    height: 40px;
+
+    margin-top: 24px; 
+    margin-left: 6.75%; 
+    margin-right: 6.75%; 
+    margin-bottom: 0; 
+}
+
+.card-feat-top p{
+    padding-left: 3.12%;
+    line-height: 40px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* =================== billedfeltet ================= */
+
+.card-feat-img{
+    background-image: url("../img/webudv.jpg");
+    background-size: cover;
+
+    width: 86.5%;
+    height: 336px;
+    margin-left: 6.75%;
+}
+
+/* ================ overskrift, brødtekst, button ============== */
+
+.card-feat-headline{
+    background-color: #F1EBEB;
+    width: 86.5%;
+    height: 114px;
+    margin: 0 6.75%; 
+}
+
+.card-feat-headline p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight:100;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    margin-top: 0;
+    margin-left: 6.75%; 
+}
+
+.card-feat-body{
+    background-color: #F1EBEB;
+    width: 86.5%;
+    /* height: 405px; */
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-left: 6.75%;
+    margin-bottom: 24px;
+}
+
+.card-feat-body p{
+    font-family: sans-serif;
+    line-height: 26px;
+    margin: 0 6.75%;
+}
+
+/* ============ component redbutton, her inline ==================== */
+
+.global-card-redbutton{ 
+
+    background-color: #C40000;
+    width: 157px;
+    height: 45px;
+    border-radius: 24px;
+    margin-left: 44.8%;
+    margin-top: 60px;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+.global-card-redbutton p{     
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height:15px;
+    color: white;
+    padding-top:15px;
+}
+
+.global-card-redbutton a{
+    width: 157px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* @media queries */
+
+@media (min-width: 1025px){
+    .card-feat{
+        width: 1024px;
+    }
+
+    /*  ================ top-bjælken ================== */
+    
+    .card-feat-top{
+        background-color: #C40000;
+        width: 960px;
+        height: 40px;
+    }
+    
+    .card-feat-top p{
+        padding-left: 28px;
+        line-height: 40px;
+    }
+
+    /* =================== billedfeltet ================= */
+
+    .card-feat-img{
+        background-image: url("../img/webudv.jpg");
+        background-size: cover;
+    
+        width: 348px;
+        height: 380px;
+        /* margin-left: 32px; */
+    }
+    /* ================ overskrift, brødtekst, button ============== */
+
+
+
+
+}

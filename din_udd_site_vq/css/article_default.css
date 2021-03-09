@@ -1,0 +1,71 @@
+/* ============= css til standard-artikel-template ============== */
+
+.article-default{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.article-default-img-top{
+    background-image: url("../img/udd4.jpg");
+    background-size: cover;
+
+    width: 100%;
+    height: 208px;
+    margin: 0;
+}
+
+.article-default-header1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    font-weight: 100;
+    line-height: 2rem;
+    margin: 0 6.67%; 
+}
+
+.article-default-header2{
+    margin: 0;
+}
+
+.article-default-header2 p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.625rem;
+    margin: 0 6.67%; 
+}
+
+.article-default-copy1 p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 14px 6.67%; 
+}
+
+.article-default-img-inline{
+    margin-inline-start:0;
+    margin-inline-end:0;
+    margin: 0 6.67%;
+} 
+
+ .article-default-img-inline img{ 
+    width: 100%;
+    height: 95%;
+    
+} 
+
+.article-default-copy2 p{
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0 6.67%;
+    padding-bottom: 6.67%;
+}
+
+
+/* @media queries */
+
+@media (min-width: 1025px){
+
+}
