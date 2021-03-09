@@ -1,0 +1,58 @@
+/* ===================== dinuddannelse.dk ============ */
+/* ==================== css for hero ============  */
+
+
+.hero{
+   
+    width: 100%; 
+    display: flex;
+    flex-flow:wrap;
+
+    background-image: url("../tmpl_img/udd5.jpg");
+    background-size: cover;
+}
+
+.hero-text{
+    margin: auto;
+    padding-top: 2.25rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+/* =========== statisk søgefelt 25 - 57 =================== */
+
+.positionator{
+    display: flex;
+
+    width: 100%;
+    justify-content: center;
+}
+
+.form-container{
+    position: relative;
+    width: 236px;
+}
+
+
+#hero-search{
+    width: 236px;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: #C40000;
+    outline: none;
+    margin-top: 13px;
+    margin-bottom: 52px;
+    
+}
+
+.hero-lup{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    z-index: 10;
+    transform: translate(15%, 70%);
+}
+

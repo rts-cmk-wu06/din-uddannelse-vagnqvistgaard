@@ -1,0 +1,24 @@
+/* ================== søgefelt, kun css ========================= */
+/* ========= husk at ændre 'class' og 'id'-navne, så de passer med din kontekst ========== */
+
+#hero-search{
+    width: 236px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border-color: #C40000;
+    outline: none;
+    margin-top: 10px;
+    /* margin-left: 3.75rem; */
+    margin-left: 62px;
+    margin-bottom: 52px;
+    padding-left: 2rem;
+}
+
+.hero-lup{
+    position: absolute;
+    width: 1.625rem;
+    height: 1.625rem;
+    z-index: 10;
+    transform: translate(260%, 70%);
+}

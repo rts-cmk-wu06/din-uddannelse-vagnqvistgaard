@@ -1,0 +1,54 @@
+/* ====== frit efter lee warrick, https://leewarrick.com/blog/css-only-menus/ ================= */
+
+.dropmenu-ref * {
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.dropmenu-ref {
+    /* background-color: blue;
+    width: 70%; */
+    margin: 0 auto; 
+    display: flex;
+    
+}
+
+.menuen {
+    margin: 0 auto;
+    top: 10px;
+    position: relative;
+    padding: 10px; 
+}
+
+.menuen:hover{
+    cursor: pointer;
+}
+
+.listen {
+    background-color: #5d4646;
+    border-radius: 15px;
+    list-style: none;
+}
+
+.listen li{
+    margin: 20px;
+}
+
+.menuen .listen {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 35px;
+    right: 0;
+    z-index: 20;
+}
+
+.menuen:hover .listen {
+    display: block;
+}

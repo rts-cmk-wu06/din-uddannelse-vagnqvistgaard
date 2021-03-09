@@ -1,0 +1,28 @@
+/* ===================== dinuddannelse.dk ============ */
+/* ===================== css for global header  =========== */
+
+.global-header {
+    background-color: #C40000;
+    /* width: 360px; */
+    width: 100%;
+    margin:0 0;
+    padding: 12px 0px 11px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.global-header-img {
+    width: 40%;
+    height:40%;
+    padding-left: 24px;
+}
+
+ /* Media Query for Tablets Ipads portrait mode */ 
+ @media (min-width: 768px) and (max-width: 1024px){ 
+    body { 
+        width: 50%;
+    } 
+} 

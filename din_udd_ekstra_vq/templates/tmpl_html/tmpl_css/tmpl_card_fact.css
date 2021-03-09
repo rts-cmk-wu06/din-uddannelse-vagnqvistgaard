@@ -1,0 +1,50 @@
+/* ================ css for fakta-boksen på detail-siden =========== */
+
+.card-fact{
+    width: 100%;
+    display: flex;
+    flex-flow:wrap;
+}
+
+.card-fact-headline{
+    background-color: #8b7b7b; 
+    width: 87%;
+    /* height: 114px; */
+    margin: 0 6.67%; 
+}
+
+.card-fact-headline p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: white;
+    padding-top: 30px;
+    margin: 0 6.67%; 
+}
+
+.card-fact-body{
+    background-color: #8b7b7b; 
+    width: 87%;
+    font-size: 1rem;
+    color: white;
+    margin: 0 6.67%;
+    margin-bottom: 24px; 
+}
+
+.card-fact-body p{
+    font-family: sans-serif;
+    line-height: 1.625rem;
+    margin: 0 6.67%;
+}
+
+.card-fact-body ul{
+    padding-left: 1.5rem;
+    margin-left: 0;
+}
+
+.card-fact-body ul li{
+    font-family: sans-serif;
+    line-height: 1.625rem;
+    color: white;
+    list-style-type: none;
+}
